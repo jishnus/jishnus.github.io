@@ -47,12 +47,12 @@ header:before {
    vertical-align: middle;
    height: 100%;
 }
-header .banner {
+header .banner1 {
    display: inline-block;
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+  padding-top: 50px;
    text-align: center;
 }
 
@@ -1022,3 +1022,161 @@ footer .social-links li:first-child { margin-left: 0; }
   .icon-tagprof:hover {
         background:url('../images/ico-tagprof-color.png') no-repeat center;
     }
+
+  /*Technical Skils*/
+  .technical {
+	background:#eeeeee;
+	color:#474d5d;
+}
+.technical .container {
+	padding-top:85px;
+	padding-bottom:69px;
+}
+.technical .heading p {
+	padding-bottom:41px;
+}
+.technical p {
+	color:#474d5d;
+}
+.technical h2 {
+	color:#ff675f;
+}
+.technical .skillsArea {
+	padding:0px;
+}
+.technical .skills {
+	margin:0 auto;
+	margin-bottom:23px;
+	text-align:center;
+	padding:0px;
+	float:none;
+}
+.technical .skills p {
+	color:#84868d;
+	font-size:13px;
+	line-height:18px;
+	text-align:center;
+}
+.technical .skills img {
+	margin:0 auto;
+	margin-bottom:33px;
+	width:100%;
+	max-width:152px;
+}
+.technical .skills h4 {
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+
+.chart {
+	position: relative;
+	display: inline-block;
+	width: 152px;
+	height: 152px;
+	margin-bottom: 26px;
+	text-align: center;
+}
+.chart canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.percent {
+	display: inline-block;
+	font-size:21px;
+	color:#474d5d;
+	line-height: 152px;
+	z-index: 2;
+}
+.percent:after {
+	content: '%';
+	margin-left: 0.1em;
+	font-size: .8em;
+}
+.angular {
+	margin-top: 100px;
+}
+.angular .chart {
+	margin-top: 0;
+}
+
+/*Experience*/
+.exprience {
+	background:#fff;
+}
+.exprience .container {
+	padding-top:85px;
+	padding-bottom:90px;
+}
+.exprience h2 {
+	color:#ff675f;
+    margin-left:23px;
+}
+.exprience p {
+	color:#84868d;
+	/*font-size:13px;*/
+	line-height:18px;
+     margin-left:23px;
+}
+.exprience .heading p {
+	padding-bottom:25px;
+}
+.exprience h4 {
+	font-weight:700;
+}
+.workDetails .rightArea {
+	border-left: solid 1px #eaeaea;
+	padding-bottom:47px;
+}
+.workDetails:last-child .rightArea {
+	padding-bottom:0px;
+}
+.workYear {
+	font-size:17px;
+	color:#fff;
+	background:#666262;
+	text-align:center;
+	width:120px;
+	height:120px;
+	padding:40px 0 40px 0;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.arrowpart {
+	float:left;
+	width:15px;
+	height:50px;
+	background:url(../images/arrow-left.png) no-repeat 0 23px;
+}
+.exCon {
+	width:auto;
+	background:#FDFDFD;
+	border-bottom:solid 4px #eeeeee;
+	padding:22px 47px 6px 47px;
+	margin-left:15px;
+	text-align:left;
+}
+.exCon p {
+	color:#84868d;
+	line-height:21px;
+}
+.exCon h4 {
+	color:#474d5d;
+	padding-bottom:3px;
+}
+.exCon h5 {
+	color:#474d5d;
+}
+.clearfix { clear:both;
+}
+.responsive-headline {
+    color:#fff;
+}
+.banner1 span {
+    color:#fff;
+    font-family:'librebaskerville-regular', serif !important;
+    font-size:18px;
+    margin-top:30px;
+    display:block;
+}
